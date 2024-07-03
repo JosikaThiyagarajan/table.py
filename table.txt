@@ -1,0 +1,9 @@
+
+print("PRINTING MULTIPLICATION TABLE")
+n=int(input("enter the number:\n"))
+x=int(input("enter the range:\n"))
+print("multiplication table is")
+i=1
+while i<=x:
+        print(i,"x",n,"=",i*n)
+        i+=1
